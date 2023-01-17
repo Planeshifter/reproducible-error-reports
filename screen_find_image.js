@@ -1,6 +1,7 @@
-const { screen, imageResource } = require('@nut-tree/nut-js');
+const { screen, imageResource, useConsoleLogger, ConsoleLogLevel } = require('@nut-tree/nut-js');
 require('@nut-tree/nl-matcher');
 
+useConsoleLogger({ logLevel: ConsoleLogLevel.DEBUG });
 screen.config.resourceDirectory = __dirname;
 
 (async () => {
