@@ -1,0 +1,11 @@
+{
+  "name": "reproducible-error-reports",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planeshifter/reproducible-error-reports.git"
+  },
+  "dependencies": {
+    "@nut-tree/nl-matcher": "^2.0.0",
+    "@nut-tree/nut-js": "^3.0.0"
+  }
+}
